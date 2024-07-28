@@ -1,0 +1,40 @@
+#Footer{
+    background-image: linear-gradient(black, #16325e);
+    /* height: 650px; */
+    padding-bottom: 3%;
+}
+
+#footerMain{
+    margin:auto;
+    margin-top: 8%;
+    width: 85%;
+    color:white;
+}
+
+.linkSection{
+    color: grey;
+}
+
+#moreLinks{
+    display: flex;
+    justify-content: space-between;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+
+#endSection{
+    display:flex;
+    justify-content: space-between;
+    margin-top:3%;
+    align-items: center;
+    gap:5%;
+}
+
+
+
+.help{
+    align-items: center;
+    display:flex;
+    gap:5%;
+}

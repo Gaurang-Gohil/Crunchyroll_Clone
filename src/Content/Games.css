@@ -1,0 +1,73 @@
+#games{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 85%;
+    max-width: 85%;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    margin-top: 5%;
+    /* border: 2px solid blue; */
+}
+
+#swipe{
+    display: flex;
+    display: inline;
+    /* position: relative; */
+}
+
+.individual-swipe{
+    position: absolute;
+}
+
+.individual-swipe.left-swipe{
+    left:10px;
+    top:400px;
+}
+.individual-swipe.right-swipe{
+    right:10px;
+    top:400px;
+}
+
+#filterText{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.filter{
+    width: 90%;
+    margin: auto;
+}
+
+#filter-options{
+    display: flex;
+    gap: 10px;
+}
+
+.filter-btn{
+    color: white;
+    border: white;
+}
+
+.filter :active{
+    color: white;
+}
+
+.text{
+    color: white;
+
+}
+
+#GameTemplate{
+        border: 0px solid;
+        box-shadow: 10px;
+        padding: 10px;
+}
+
+#GameTemplate:hover{
+        border: 1px solid grey;
+}
+
+#img-border{
+    border-radius:"10%";
+}

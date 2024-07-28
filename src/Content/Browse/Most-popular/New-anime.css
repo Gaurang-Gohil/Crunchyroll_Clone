@@ -1,0 +1,20 @@
+#New-Anime{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap:10px;
+    height:auto;
+    margin:auto;
+    margin-top: 5%;
+}
+
+#no-center{
+    text-align: left;
+}
+
+.text.center{
+    width:70%;
+}
+
+#lighten{
+    color: grey;
+}

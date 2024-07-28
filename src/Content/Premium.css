@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+#heading-premium{
+    text-align: left;
+    margin:20px;
+    margin-bottom: 50px;
+}
+#Head-premium{
+   position:relative;
+   right:-250px;
+}
+.flex{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+#center{
+    margin-top: 100px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.premium-fonts{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+#first-watch{
+    text-align: center;
+}
+
+#abc{
+    font-size: xxx-large;
+}
+#Anime-without-ads{
+    /* border: 1px solid red; */
+    padding-top: 250px;
+    width:80%;
+    margin:auto;    
+}
+
+#imgs{
+    text-align: center;
+    /* border: 1px solid yellow; */
+    position: relative;
+    left: 200px;
+    top:-250px;
+}
+
+#consols{
+    position:relative;
+    top:-150px;
+}
+
+#Membership{
+    position: relative;
+    align-items: center ;
+    top:-250px;
+    color:white;
+    text-align:center;
+    box-shadow: inset;
+}
+
+#MembershipTemplate{
+    border: 3px solid white;
+}
+.big-size{
+    font-size: xx-large;
+}
+
+.abc{
+    font-size: x-small;
+    position: relative;
+    top: -150px;
+}
+
+#add-text{
+    font-size: small;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#fan{
+    position: relative;
+    top:30px;
+}
+
+#Mega-fan{
+    position: relative;
+    bottom: 30px;
+}
+
+#Super-fan{
+    position:relative;
+    top:80px;
+}

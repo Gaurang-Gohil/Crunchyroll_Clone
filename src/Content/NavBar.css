@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.flex-class{
+    display:flex;
+    align-items: center;
+    padding: 3px;
+    gap: 15px;    
+    font-size: medium;
+}
+
+#MainNavBar{
+    background-color:#272a2e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0%;
+    z-index: 2;
+}
+
+#MainNavBarContent{
+    justify-content: space-between;
+    width:92%;
+    margin: auto;
+}
+
+#text_go{
+    color: gold;
+}
+
+.Select{
+    font-size: medium;
+    background-color: 	#272a2e;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#Browse{
+    padding-top: 5px;
+}
+
+#Head{
+    color: orange;
+}
+
+.exo-2{
+    font-family: "Exo 2", sans-serif;
+    font-size: large;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+  #fade-button{
+    color: white;
+    background-color: #272a2e;
+  }

@@ -1,0 +1,140 @@
+.OverAllLook{
+    background-color: black;
+    z-index: -1;
+}
+
+#pad{
+    padding-bottom: 60px;
+}
+#MainDiv{
+    margin:auto;
+    
+}
+.swipe{
+    width: 100%;
+    align-items: center;
+    display: flex ;
+    justify-content: space-between;
+}
+.swipe.nopad{
+    padding-top: none;
+}
+
+.indiviual-swipe-home{
+    width:5%;   
+    align-items: center;
+}
+.center{
+    width:90%;
+    margin: auto;
+}
+
+#topPics{
+    margin: auto;
+    position: relative;
+}
+.carousel {
+    margin-top: 120px;
+    --padding-b: max(0rem, calc(var(--carousel__overflow-y-hint) - var(--carousel__row-gap) / 2));
+    --padding-i: max(0rem, calc(var(--carousel__overflow-x-hint) - var(--carousel__col-gap) / 2));
+    display: grid;
+    grid-auto-columns: calc(100% / var(--carousel__col-count));
+    grid-auto-flow: column;
+    grid-template-rows: repeat(var(--carousel__row-count), auto);
+    margin: calc((var(--carousel__row-gap) / 2 + var(--padding-b)) * -1) calc((var(--carousel__col-gap) / 2 + var(--padding-i)) * -1);
+    overflow: auto;
+    overscroll-behavior-x: none;
+    padding: var(--padding-b) var(--padding-i);
+    scroll-padding: 0 var(--padding-i);
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none; 
+}
+
+#TopPicsTemplate {
+    scroll-snap-align: start;
+    padding: 10px;  
+}
+.Crousel-temp-link{
+    text-decoration: none;
+}
+.Crousel-temp-link img{
+    width: 250px;
+    height: auto;
+}
+
+.scroll-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    /* height: var( clamp(var(--arrow-wrapper-height),calc((var(--carousel__row-count) - 1)*500vh),100%)); */
+}
+
+.scroll-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.scroll-btn.left {
+    left: 10px;
+}
+
+.scroll-btn.right {
+    right: 10px;
+}
+
+
+#crousel{
+    margin-top: 85px;
+}
+
+#mainScrollingItems{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+
+.text{
+    color: white;
+}
+
+h2{
+    padding-top: 80px;
+}
+
+#TopPicsTemplate{
+    color:white;
+}
+
+#lightColor{
+    color:grey;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+#btn{
+    background-color: rgb(255, 174, 0);
+    color: black;
+    border-radius: 0;
+}
+
+.Z-index--1{
+    z-index: 0;
+}
+
+#topPicsText{
+    width: 90%;
+    margin: auto;
+}
